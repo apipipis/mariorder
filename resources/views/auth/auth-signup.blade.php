@@ -43,7 +43,7 @@
                             </div>
                             <!--end col-->
                             <div class="col-xxl-6 mx-auto">
-                                <div class="card mb-0 border-0 shadow-none mb-0">
+                                <div class="card border-0 shadow-none mb-0">
                                     <div class="card-body p-sm-5 m-lg-4">
                                         <div class="text-center mt-2">
                                             <h5 class="fs-3xl">Create your free account</h5>
@@ -53,18 +53,24 @@
                                             <form class="needs-validation" novalidate action="{{ route('registerProses') }}" method="POST">
                                                 @csrf
                                                 <div class="mb-3">
-                                                    <label for="useremail" class="form-label">Email <span class="text-danger">*</span></label>
-                                                    <input type="email" class="form-control bg-light border-light" id="useremail" placeholder="Enter email address" required name="email">
+                                                    <label for="username" class="form-label">Nama <span class="text-danger">*</span></label>
+                                                    <input type="email" class="form-control bg-light border-light" id="useremail" placeholder="Masukkan Nama" required name="name">
                                                     <div class="invalid-feedback">
-                                                        Please enter email
+                                                        Masukkan Nama
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="useremail" class="form-label">Email <span class="text-danger">*</span></label>
+                                                    <input type="email" class="form-control bg-light border-light" id="useremail" placeholder="Masukkan Email" required name="email">
+                                                    <div class="invalid-feedback">
+                                                        Masukkan Email
                                                     </div>
                                                 </div>
                                                 
                                                 <div class="mb-3">
-                                                    <label class="form-label" for="password-input">Telepon <span class="text-danger">*</span></label>
+                                                    <label class="form-label" for="usertel">Telepon <span class="text-danger">*</span></label>
                                                     <div class="position-relative auth-pass-inputgroup">
                                                         <input type="text" class="form-control bg-light border-light pe-5" onpaste="return false" placeholder="Enter phone number" id="phone-input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required name="tel">
-                                                        {{-- <button class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon" type="button" id="password-addon"><i class="ri-eye-fill align-middle"></i></button> --}}
                                                         <div class="invalid-feedback">
                                                             Please enter phone number
                                                         </div>
@@ -96,19 +102,6 @@
 
                                                 <div class="mt-4">
                                                     <button class="btn btn-primary w-100" type="submit">Sign Up</button>
-                                                </div>
-
-                                                <div class="mt-4 text-center">
-                                                    <div class="signin-other-title position-relative">
-                                                        <h5 class="fs-sm mb-4 title text-muted">Create account with</h5>
-                                                    </div>
-
-                                                    <div>
-                                                        <button type="button" class="btn btn-subtle-primary btn-icon "><i class="ri-facebook-fill fs-lg"></i></button>
-                                                        <button type="button" class="btn btn-subtle-danger btn-icon "><i class="ri-google-fill fs-lg"></i></button>
-                                                        <button type="button" class="btn btn-subtle-dark btn-icon "><i class="ri-github-fill fs-lg"></i></button>
-                                                        <button type="button" class="btn btn-subtle-info btn-icon "><i class="ri-twitter-fill fs-lg"></i></button>
-                                                    </div>
                                                 </div>
                                             </form>
                                         </div>

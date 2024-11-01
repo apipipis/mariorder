@@ -5,7 +5,7 @@
 @section('content')
 
 @section('page-title')
-    <x-breadcrumb pagetitle="Pages" title="Fitur" />
+    <x-breadcrumb pagetitle="Dashboard" title="Fitur" />
 @endsection
 
 
