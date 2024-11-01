@@ -5,7 +5,7 @@
 @section('content')
 
 @section('page-title')
-    <x-breadcrumb pagetitle="Pages" title="FAQs" />
+    <x-breadcrumb pagetitle="Dashboard" title="Pusat Bantuan" />
 @endsection
 
 <div class="card">

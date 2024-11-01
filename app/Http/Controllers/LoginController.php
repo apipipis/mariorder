@@ -38,12 +38,14 @@ class LoginController extends Controller
     
     public function registerProses(request $request){
         $request->validate([
+            'name' => 'required',
             'email' => 'required|email',
             'password' => 'required',
             'tel' => 'required',
         ]);
 
         $data = [
+            'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make ($request->password),
             'tel' => $request->tel
@@ -52,13 +54,14 @@ class LoginController extends Controller
         User::create ($data);
 
         $credentials = [
+            'name' => $request->name,
             'email' => $request->email,
             'password' => $request->password,
             'tel' => $request->tel,
         ];
 
         if (Auth::attempt ($credentials)){
-            return redirect()->intended(route('register'))->with('success', 'Register Berhasil');
+            return redirect()->intended(route('login'))->with('success', 'Register Berhasil');
         } else {
             return redirect('register')->with('danger', '');
         }

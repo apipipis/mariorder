@@ -113,7 +113,7 @@
                         </div>
                     </div>
 
-                    <div class="dropdown ms-1 topbar-head-dropdown header-item">
+                    {{-- <div class="dropdown ms-1 topbar-head-dropdown header-item">
                         <button type="button" class="btn btn-icon btn-topbar rounded-circle"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             @switch(Session::get('lang'))
@@ -222,9 +222,9 @@
                                 <span class="align-middle">عربي</span>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="dropdown topbar-head-dropdown ms-1 header-item">
+                    {{-- <div class="dropdown topbar-head-dropdown ms-1 header-item">
                         <button type="button" class="btn btn-icon btn-topbar rounded-circle mode-layout"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="bi bi-sun align-middle fs-3xl"></i>
@@ -239,7 +239,7 @@
                             <a href="#!" class="dropdown-item" data-mode="auto"><i
                                     class="bi bi-moon-stars align-middle me-2"></i> Auto (system default)</a>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="dropdown topbar-head-dropdown ms-1 header-item" id="notificationDropdown">
                         <button type="button" class="btn btn-icon btn-topbar rounded-circle"
@@ -420,16 +420,16 @@
                     <div class="dropdown topbar-head-dropdown ms-2 header-item">
                         <button type="button" class="btn btn-icon rounded-circle" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                            {{-- <img class="rounded-circle img-fluid"
+                            <img class="rounded-circle img-fluid"
                                 src="@if (Auth::user()->avatar != '') {{ URL::asset('images/' . Auth::user()->avatar) }}@else{{ URL::asset('build/images/users/avatar-1.jpg') }} @endif"
-                                alt="Header Avatar"> --}}
+                                alt="Header Avatar">
                         </button>
                         <div class="dropdown-menu p-2 dropdown-menu-end">
                             <div class="d-flex gap-2 mb-3 topbar-profile">
                                 <div class="position-relative">
-                                    {{-- <img class="rounded-1"
+                                    <img class="rounded-1"
                                         src="@if (Auth::user()->avatar != '') {{ URL::asset('images/' . Auth::user()->avatar) }}@else{{ URL::asset('build/images/users/avatar-1.jpg') }} @endif"
-                                        alt="Header Avatar"> --}}
+                                        alt="Header Avatar">
                                     <span
                                         class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-success"><span
                                             class="visually-hidden">unread messages</span></span>
