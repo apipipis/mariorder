@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    Dashboard
+    dasbor
 @endsection
 @section('css')
     <!-- jsvectormap css -->
