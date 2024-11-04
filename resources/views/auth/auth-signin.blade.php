@@ -1,6 +1,6 @@
 @extends('layouts.master-without-nav')
 @section('title')
-    Sign In
+    Masuk
 @endsection
 @section('content')
     <section
@@ -60,7 +60,7 @@
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <button class="btn btn-primary w-100" type="submit">Sign In</button>
+                                                    <button class="btn w-100" style="background-color: rgba(47, 118, 213, 0.8); color:white" type="submit">Sign In</button>
                                                 </div>
                                             </form>
 
@@ -112,9 +112,9 @@
                                                 &copy;
                                                 <script>
                                                     document.write(new Date().getFullYear())
-                                                </script> Judia. Crafted with <i
-                                                    class="bi bi-heart-fill text-danger"></i> by <a href="#!"
-                                                    class="text-white">Themesbrand</a>
+                                                </script> Mari Order. Dibuat dengan <i
+                                                    class="bi bi-heart-fill text-danger"></i> oleh <a href="#!"
+                                                    class="text-white">apis & geri</a>
                                             </p>
                                         </div>
                                     </div>
