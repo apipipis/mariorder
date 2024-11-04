@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PricingController extends Controller
 {
     public function index(){
-        return view('auth.pages-pricing');
+        return view('dashboard.pages-pricing');
     }
     
 }

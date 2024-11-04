@@ -5,7 +5,7 @@
                 <div class="d-flex" id="header-logo">
                     <!-- LOGO -->
                     <div class="navbar-brand-box horizontal-logo">
-                        <a href="{{ ('Dashboard') }}" class="logo logo-dark">
+                        <a href="{{ ('dashboard') }}" class="logo logo-dark">
                             <span class="logo-sm">
                                 <img src="https://img.themesbrand.com/judia/logo-sm.png" alt="" height="22">
                             </span>
@@ -63,7 +63,7 @@
                         <ul class="navbar-nav" id="navbar-nav">
                             <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                             <li class="nav-item">
-                                <a class="nav-link menu-link" href="{{ route('index') }}" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+                                <a class="nav-link menu-link" href="{{ route('dashboard') }}" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
                                     <i class="ph-gauge"></i> <span>{{ __('Dashboards') }}</span>
                                 </a>
                             </li>
