@@ -9,9 +9,7 @@
 @section('content')
     <div class="page-title-box">
         <div class="row align-items-center gy-3">
-            <div class="col-md">
-                <x-breadcrumb pagetitle="Crypto" title="Katalog Toko" />
-            </div><!--end col-->
+            
             <div class="col-md-auto ms-auto">
             </div><!--end col-->
         </div><!--end row-->

@@ -105,7 +105,7 @@
                                                 </div>
 
                                                 <div class="mb-4">
-                                                    <p class="mb-0 fs-sm text-muted fst-italic">By registering you agree to the Judia <a href="pages-term-conditions" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a></p>
+                                                    <p class="mb-0 fs-sm text-muted">Dengan Mendaftar, Anda Telah Menyetujui<a href="pages-term-conditions" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a> dari kami.</p>
                                                 </div>
 
                                                 <div id="password-contain" class="p-3 bg-light mb-2 rounded">
@@ -122,7 +122,7 @@
                                             </form>
                                         </div>
                                         <div class="mt-4 text-center">
-                                            <p class="mb-0">Already have an account ? <a href="auth-signin" class="fw-semibold text-primary text-decoration-underline"> Signin </a> </p>
+                                            <p class="mb-0">Already have an account ? <a href="{{ route('login') }}" class="fw-semibold text-primary text-decoration-underline"> Signin </a> </p>
                                         </div>
                                     </div><!-- end card body -->
                                 </div><!-- end card -->
