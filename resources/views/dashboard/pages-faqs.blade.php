@@ -12,10 +12,12 @@
     <div class="card-body">
         <div class="row">
             <div class="col-xl-4">
-                <h5 class="card-title mb-3">General Questions</h5>
-                <p class="text-muted">General knowledge is information that has been accumulated over time through
-                    various mediums and sources. It excludes specialized learning that can only be obtained with
-                    extensive training and information confined to a single medium.</p>
+                <h5 class="card-title mb-3">Pertanyaan Umum</h5>
+                <p class="text-muted">
+                    Bagian ini mencakup pertanyaan-pertanyaan dasar mengenai aplikasi, layanan yang disediakan, serta informasi umum tentang bagaimana aplikasi bekerja.
+                    Tujuan dari bagian ini adalah memberikan pemahaman awal kepada pengguna tentang aplikasi, cara penggunaannya, dan dukungan yang tersedia.
+                    Pertanyaan di sini sering kali tentang gambaran umum aplikasi, fitur-fitur khusus, dan hal-hal teknis yang mungkin dihadapi pengguna.
+                </p>
             </div>
             <!--end col-->
             <div class="col-xl-8">
@@ -25,15 +27,15 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#genques-collapseOne" aria-expanded="true"
                                 aria-controls="genques-collapseOne">
-                                What are FAQ questions?
+                                Apa itu Mari Order?
                             </button>
                         </h2>
                         <div id="genques-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="genques-headingOne" data-bs-parent="#genques-accordion">
                             <div class="accordion-body">
-                                An FAQ page <b>(short for Frequently Asked Question page)</b> is a part of your website
-                                that provides answers to common questions, assuages concerns, and overcomes objections.
-                                It's a space where customers away from your sales-focused landing pages and homepage.
+                                Mari Order adalah aplikasi e-commerce yang memudahkan pengguna untuk menemukan, membeli, 
+                                dan menjual berbagai produk dengan kategori yang beragam. Kami menyediakan platform yang 
+                                aman dan mudah digunakan untuk penjual dan pembeli.
                             </div>
                         </div>
                     </div>
@@ -42,16 +44,15 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#genques-collapseTwo" aria-expanded="false"
                                 aria-controls="genques-collapseTwo">
-                                What is FAQ process?
+                                Bagaimana cara menghubungi layanan pelanggan?
                             </button>
                         </h2>
                         <div id="genques-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="genques-headingTwo" data-bs-parent="#genques-accordion">
                             <div class="accordion-body">
-                                FAQ stands for Frequently Asked Questions. It's <b>your opportunity to communicate with
-                                    the most important visitors to your website</b> – those who have begun the
-                                decision-making process about whether to do business with you can't fit elsewhere on
-                                their website.
+                                Anda dapat menghubungi kami melalui fitur "Bantuan" di aplikasi 
+                                atau melalui nomor <a href="https://wa.me/6282123471389" target="_blank" rel="noopener noreferrer" style="color: blue; text-decoration: none;">WhatsApp support</a> kami 
+                                jika memiliki pertanyaan atau masalah.
                             </div>
                         </div>
                     </div>
@@ -60,15 +61,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#genques-collapseThree" aria-expanded="false"
                                 aria-controls="genques-collapseThree">
-                                What is the purpose of FAQ?
+                                Apakah ada program loyalitas atau diskon?
                             </button>
                         </h2>
                         <div id="genques-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="genques-headingThree" data-bs-parent="#genques-accordion">
                             <div class="accordion-body">
-                                The purpose of a FAQ is generally to provide information on frequent questions or
-                                concerns; however, the format is a useful means of organizing information, and text
-                                consisting of questions and their answers may thus be called a FAQ regardless.
+                                Kami sering mengadakan promosi dan diskon khusus bagi pengguna. Pantau halaman "Promo" 
+                                atau ikuti media sosial kami untuk informasi terbaru.
                             </div>
                         </div>
                     </div>
@@ -77,48 +77,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#genques-collapseFour" aria-expanded="false"
                                 aria-controls="genques-collapseFour">
-                                What is an online FAQ?
+                                Apa saja metode pembayaran yang tersedia?
                             </button>
                         </h2>
                         <div id="genques-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="genques-headingFour" data-bs-parent="#genques-accordion">
                             <div class="accordion-body">
-                                FAQs stand for frequently asked questions. It is one of the many crucial pages of your
-                                website. It gives your customers answers to recurring and common questions and addresses
-                                their concerns public product documentation that is released at the same time.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="genques-headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#genques-collapseFive" aria-expanded="false"
-                                aria-controls="genques-collapseFive">
-                                What are some design questions?
-                            </button>
-                        </h2>
-                        <div id="genques-collapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="genques-headingFive" data-bs-parent="#genques-accordion">
-                            <div class="accordion-body">
-                                These questions will help clients feel involved with the design process, and they'll
-                                also help you brainstorm ideas and fine-tune your creative output.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="genques-headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#genques-collapseSix" aria-expanded="false"
-                                aria-controls="genques-collapseSix">
-                                What are the 4 questions of design?
-                            </button>
-                        </h2>
-                        <div id="genques-collapseSix" class="accordion-collapse collapse"
-                            aria-labelledby="genques-headingSix" data-bs-parent="#genques-accordion">
-                            <div class="accordion-body">
-                                The methodology I've found most successful, has been introduced by prof Jeanne Liedtka
-                                from Darden Business School and identifies four stages: What is?, What if?, What wows?,
-                                and What works?
+                                Kami mendukung berbagai metode pembayaran seperti transfer bank, kartu kredit, e-wallet, 
+                                dan metode pembayaran lain yang populer di Indonesia. Detailnya dapat dilihat saat proses checkout.
                             </div>
                         </div>
                     </div>
@@ -134,10 +100,12 @@
     <div class="card-body">
         <div class="row">
             <div class="col-xl-4">
-                <h5 class="card-title mb-3">Manage Account</h5>
-                <p class="text-muted">Cybersecurity experts recommend changing your password every three months. There
-                    may even be situations where you should change your password immediately, especially if a
-                    cybercriminal has access to your account.</p>
+                <h5 class="card-title mb-3">Manajemen Akun</h5>
+                <p class="text-muted">Bagian Manajemen Akun berfokus pada informasi yang berkaitan dengan pembuatan, pengelolaan, 
+                    dan penghapusan akun pengguna. Ini mencakup cara mendaftar, masuk, mengubah informasi akun, dan mengatasi masalah 
+                    akun. Bagian ini bertujuan untuk membantu pengguna memahami cara mengelola akun mereka dengan aman dan efektif, 
+                    serta menjawab pertanyaan tentang masalah akses atau pemulihan akun.
+                </p>
             </div>
             <!--end col-->
             <div class="col-xl-8">
@@ -147,16 +115,15 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#manageaccount-collapseOne" aria-expanded="false"
                                 aria-controls="manageaccount-collapseOne">
-                                What is account management process?
+                                Bagaimana cara membuat akun di Mari Order?
                             </button>
                         </h2>
                         <div id="manageaccount-collapseOne" class="accordion-collapse collapse"
                             aria-labelledby="manageaccount-headingOne" data-bs-parent="#manageaccount-accordion">
                             <div class="accordion-body">
-                                If several languages coalesce, the grammar of the resulting language is more simple and
-                                regular than that of the individual languages. The new common language will be more
-                                simple and regular than the existing European languages. It will be as simple their most
-                                common words.
+                                Klik tombol "Daftar" di halaman utama, isi informasi yang diperlukan seperti email, nama, 
+                                dan kata sandi, lalu ikuti instruksi untuk verifikasi. Setelah terverifikasi, Anda bisa 
+                                mulai berbelanja atau berjualan.
                             </div>
                         </div>
                     </div>
@@ -165,16 +132,14 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#manageaccount-collapseTwo" aria-expanded="true"
                                 aria-controls="manageaccount-collapseTwo">
-                                Why is account management important?
+                                Mengapa saya mengalami masalah saat login?
                             </button>
                         </h2>
                         <div id="manageaccount-collapseTwo" class="accordion-collapse collapse show"
                             aria-labelledby="manageaccount-headingTwo" data-bs-parent="#manageaccount-accordion">
                             <div class="accordion-body">
-                                The new common language will be more simple and regular than the existing European
-                                languages. It will be as simple as Occidental; in fact, it will be Occidental. To an
-                                English person, it will seem like simplified English, as a skeptical Cambridge friend of
-                                mine told me what Occidental is.
+                                Pastikan email dan kata sandi yang dimasukkan sudah benar. Jika masih ada masalah, 
+                                gunakan fitur "Lupa Kata Sandi" atau hubungi tim dukungan kami.
                             </div>
                         </div>
                     </div>
@@ -183,16 +148,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#manageaccount-collapseThree" aria-expanded="false"
                                 aria-controls="manageaccount-collapseThree">
-                                What is account manager role?
+                                Bagaimana cara menghapus akun saya?
                             </button>
                         </h2>
                         <div id="manageaccount-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="manageaccount-headingThree" data-bs-parent="#manageaccount-accordion">
                             <div class="accordion-body">
-                                he wise man therefore always holds in these matters to this principle of selection: he
-                                rejects pleasures to secure other greater pleasures, or else he endures pains to avoid
-                                worse pains.But I must explain to you how all this mistaken idea of denouncing pleasure
-                                and praising pain was born.
+                                Anda bisa menghapus akun kapan saja melalui pengaturan akun. Namun, perlu 
+                                diperhatikan bahwa setelah akun dihapus, data Anda tidak dapat dipulihkan.
                             </div>
                         </div>
                     </div>
@@ -201,16 +164,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#manageaccount-collapseFour" aria-expanded="false"
                                 aria-controls="manageaccount-collapseFour">
-                                What is a key account strategy?
+                                Apakah saya bisa mengganti informasi akun setelah terdaftar?
                             </button>
                         </h2>
                         <div id="manageaccount-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="manageaccount-headingFour" data-bs-parent="#manageaccount-accordion">
                             <div class="accordion-body">
-                                Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
-                                faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer
-                                lacinia. Nam pretium turpis et arcu arcu tortor, suscipit eget, imperdiet nec, imperdiet
-                                iaculis aliquam ultrices mauris.
+                                Ya, Anda bisa memperbarui informasi akun di menu pengaturan. Informasi seperti nama, 
+                                alamat, dan metode pembayaran dapat diperbarui kapan saja.
                             </div>
                         </div>
                     </div>
@@ -228,10 +189,12 @@
     <div class="card-body">
         <div class="row">
             <div class="col-xl-4">
-                <h5 class="card-title mb-3">Privacy & Security</h5>
-                <p class="text-muted">Privacy is the right to control how your information is viewed and used, while
-                    security is protection against threats or danger. In the digital world, security generally refers to
-                    the unauthorized access of data, often involving protection against hackers or cyber criminals.</p>
+                <h5 class="card-title mb-3">Privasi & Keamanan</h5>
+                <p class="text-muted">Bagian Privasi & Keamanan berfokus pada perlindungan data pribadi pengguna dan keamanan akun. 
+                    Pengguna sering kali ingin tahu bagaimana data mereka akan digunakan, langkah-langkah keamanan yang diterapkan 
+                    oleh aplikasi, serta tips untuk menjaga keamanan akun mereka. Bagian ini bertujuan untuk memberikan rasa aman dan 
+                    kepercayaan kepada pengguna dengan menjelaskan komitmen aplikasi dalam menjaga privasi dan keamanan data mereka.
+                </p>
             </div>
             <!--end col-->
             <div class="col-xl-8">
@@ -241,16 +204,14 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#privacy-collapseOne" aria-expanded="true"
                                 aria-controls="privacy-collapseOne">
-                                Which is important privacy or security?
+                                Apakah informasi pribadi saya aman?
                             </button>
                         </h2>
                         <div id="privacy-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="privacy-headingOne" data-bs-parent="#privacy-accordion">
                             <div class="accordion-body">
-                                If several languages coalesce, the grammar of the resulting language is more simple and
-                                regular than that of the individual languages. The new common language will be more
-                                simple and regular than the existing European languages. It will be as simple their most
-                                common words.
+                                Ya, kami menjaga keamanan data pribadi pengguna sesuai dengan Kebijakan Privasi kami. 
+                                Kami tidak akan membagikan informasi pribadi Anda tanpa izin.
                             </div>
                         </div>
                     </div>
@@ -259,16 +220,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#privacy-collapseTwo" aria-expanded="false"
                                 aria-controls="privacy-collapseTwo">
-                                What is security and privacy?
+                                Bagaimana data saya digunakan oleh Mari Order?
                             </button>
                         </h2>
                         <div id="privacy-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="privacy-headingTwo" data-bs-parent="#privacy-accordion">
                             <div class="accordion-body">
-                                The new common language will be more simple and regular than the existing European
-                                languages. It will be as simple as Occidental; in fact, it will be Occidental. To an
-                                English person, it will seem like simplified English, as a skeptical Cambridge friend of
-                                mine told me what Occidental is.
+                                Data Anda hanya digunakan untuk meningkatkan layanan dan pengalaman pengguna di aplikasi kami, 
+                                seperti menyarankan produk yang relevan. Detail lengkap dapat dilihat di Kebijakan Privasi kami.
                             </div>
                         </div>
                     </div>
@@ -277,16 +236,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#privacy-collapseThree" aria-expanded="false"
                                 aria-controls="privacy-collapseThree">
-                                How can I protect my privacy?
+                                Bagaimana cara menjaga keamanan akun saya?
                             </button>
                         </h2>
                         <div id="privacy-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="privacy-headingThree" data-bs-parent="#privacy-accordion">
                             <div class="accordion-body">
-                                He wise man therefore always holds in these matters to this principle of selection: he
-                                rejects pleasures to secure other greater pleasures, or else he endures pains to avoid
-                                worse pains.But I must explain to you how all this mistaken idea of denouncing pleasure
-                                and praising pain was born and I will give you a complete.
+                                Pastikan untuk menggunakan kata sandi yang kuat dan tidak membagikan informasi akun Anda kepada siapa pun. 
+                                Kami juga menganjurkan pengguna untuk mengganti kata sandi secara berkala.
                             </div>
                         </div>
                     </div>
@@ -295,16 +252,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#privacy-collapseFour" aria-expanded="false"
                                 aria-controls="privacy-collapseFour">
-                                Why is privacy so important?
+                                Apa yang harus dilakukan jika akun saya diretas?
                             </button>
                         </h2>
                         <div id="privacy-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="privacy-headingFour" data-bs-parent="#privacy-accordion">
                             <div class="accordion-body">
-                                Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
-                                faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer
-                                lacinia. Nam pretium turpis et arcu arcu tortor, suscipit eget, imperdiet nec, imperdiet
-                                iaculis aliquam ultrices mauris.
+                                Segera ubah kata sandi Anda dan hubungi layanan pelanggan kami untuk bantuan lebih lanjut. 
+                                Kami akan membantu memulihkan akun Anda dan mengamankan informasi Anda.
                             </div>
                         </div>
                     </div>
@@ -314,7 +269,107 @@
         </div>
     </div>
 </div>
-
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-xl-4">
+                <h5 class="card-title mb-3">Pembelian & Penjualan</h5>
+                <p class="text-muted">Bagian Pembelian & Penjualan berisi panduan terkait proses transaksi di aplikasi, 
+                    baik untuk pembeli maupun penjual. Pertanyaan di sini mencakup cara melakukan pembelian, metode pembayaran, 
+                    kebijakan pengembalian, dan proses penjualan produk bagi penjual. Bagian ini dirancang untuk memberikan 
+                    pemahaman menyeluruh tentang proses jual-beli dan mempermudah pengguna dalam menjalankan transaksi di aplikasi.
+                </p>
+            </div>
+            <!--end col-->
+            <div class="col-xl-8">
+                <div class="accordion accordion-border-box" id="privacy-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="privacy-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#privacy-collapseOne" aria-expanded="true"
+                                aria-controls="privacy-collapseOne">
+                                Bagaimana cara melakukan pembelian?
+                            </button>
+                        </h2>
+                        <div id="privacy-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="privacy-headingOne" data-bs-parent="#privacy-accordion">
+                            <div class="accordion-body">
+                                Cari produk yang ingin Anda beli, tambahkan ke keranjang, 
+                                dan pilih metode pembayaran. Setelah pembayaran terkonfirmasi, 
+                                penjual akan memproses pesanan Anda.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="privacy-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#privacy-collapseTwo" aria-expanded="false"
+                                aria-controls="privacy-collapseTwo">
+                                Apa saja metode pembayaran yang tersedia?
+                            </button>
+                        </h2>
+                        <div id="privacy-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="privacy-headingTwo" data-bs-parent="#privacy-accordion">
+                            <div class="accordion-body">
+                                Kami mendukung berbagai metode pembayaran seperti transfer bank, 
+                                kartu kredit, e-wallet, dan metode lainnya. Detailnya dapat dilihat saat checkout.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="privacy-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#privacy-collapseThree" aria-expanded="false"
+                                aria-controls="privacy-collapseThree">
+                                Apakah saya bisa membatalkan pesanan?
+                            </button>
+                        </h2>
+                        <div id="privacy-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="privacy-headingThree" data-bs-parent="#privacy-accordion">
+                            <div class="accordion-body">
+                                Anda dapat membatalkan pesanan sebelum penjual memprosesnya. 
+                                Jika sudah dalam tahap pengiriman, Anda perlu mengikuti prosedur pengembalian.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="privacy-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#privacy-collapseFour" aria-expanded="false"
+                                aria-controls="privacy-collapseFour">
+                                Bagaimana cara menjual produk di Mari Order?
+                            </button>
+                        </h2>
+                        <div id="privacy-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="privacy-headingFour" data-bs-parent="#privacy-accordion">
+                            <div class="accordion-body">
+                                Buat akun penjual, kemudian pilih opsi "Jual Produk" di akun Anda. Unggah foto produk, 
+                                tambahkan deskripsi, harga, dan detail lainnya. Setelah disetujui, produk Anda akan tersedia di aplikasi.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="privacy-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#privacy-collapseFour" aria-expanded="false"
+                                aria-controls="privacy-collapseFour">
+                                Bagaimana jika saya menerima produk yang rusak atau tidak sesuai?
+                            </button>
+                        </h2>
+                        <div id="privacy-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="privacy-headingFour" data-bs-parent="#privacy-accordion">
+                            <div class="accordion-body">
+                                Jika Anda menerima produk yang rusak atau tidak sesuai, segera hubungi penjual melalui fitur "Bantuan" di aplikasi. 
+                                Pengajuan pengembalian akan memerlukan bukti foto sebagai bagian dari prosesnya.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end accordion-->
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 @section('scripts')
 <!-- App js -->
