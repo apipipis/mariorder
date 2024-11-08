@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HelpController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\TermsController;
 use App\Http\Controllers\PricingController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FeaturesController;
@@ -18,6 +19,10 @@ Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
 Route::get('/index', [IndexController::class, 'index'])->name('index');
 Route::get('/features', [FeaturesController::class, 'index'])->name('features');
 Route::get('/help', [HelpController::class, 'index'])->name('help');
+
+Route::get('/terms-and-conditions', [TermsController::class, 'tou'])
+    ->name('terms')
+    ->withoutMiddleware('auth');
 
 Route::group(['middleware'=> 'auth'], function(){
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard'); 

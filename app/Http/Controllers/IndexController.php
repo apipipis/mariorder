@@ -18,5 +18,4 @@ class IndexController extends Controller
         return view('dashboard.features');
     }
 
-
 }

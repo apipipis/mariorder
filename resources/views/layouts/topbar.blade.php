@@ -446,8 +446,8 @@
                                     class="bi bi-chat-right-text align-middle me-2"></i> Messages</a>
                             <a href="pages-pricing" class="dropdown-item"><i class="bi bi-gem align-middle me-2"></i>
                                 My Subscription</a>
-                            <a href="pages-profile" class="dropdown-item"><i
-                                    class="bi bi-person-gear align-middle me-2"></i> Account Settings</a>
+                            {{-- <a href="pages-profile" class="dropdown-item"><i
+                                    class="bi bi-person-gear align-middle me-2"></i> Account Settings</a> --}}
                             <a href="javascript:void(0)" class="dropdown-item" href="javascript:void();"
                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i
                                     class="bi bi-box-arrow-right align-middle me-2"></i> Sign Out</a>

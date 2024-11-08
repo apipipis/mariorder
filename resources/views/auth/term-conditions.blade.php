@@ -4,11 +4,10 @@
 @endsection
 @section('content')
 
-@section('page-title')
-    <x-breadcrumb pagetitle="Pages" title="Term & Conditions" />
-@endsection
-
 <div class="row justify-content-center">
+    @if(isset($user->avatar))
+    <img src="{{ $user->avatar }}" alt="User Avatar">
+@endif
     <div class="col-xxl-9">
         <div class="card overflow-hidden">
             <div class="bg-primary pb-0">
@@ -115,11 +114,6 @@
                 </ul>
                 <p class="fw-semibold text-muted">No use of Company Name's logo or other artwork will be allowed for
                     linking absent a trademark license agreement.</p>
-                <div class="d-flex justify-content-end gap-2">
-                    <button type="button" class="btn btn-primary">Accept</button>
-                    <button type="button" class="btn btn-outline-danger"><i
-                            class="ri-close-line align-bottom me-1"></i> Decline</button>
-                </div>
             </div>
         </div>
         <!--end card-->
