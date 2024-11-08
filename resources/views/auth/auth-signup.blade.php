@@ -105,7 +105,7 @@
                                                 </div>
 
                                                 <div class="mb-4">
-                                                    <p class="mb-0 fs-sm text-muted">Dengan Mendaftar, Anda Telah Menyetujui<a href="pages-term-conditions" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a> dari kami.</p>
+                                                    <p class="mb-0 fs-sm text-muted">Dengan Mendaftar, Anda Telah Menyetujui <a href="{{ route('terms') }}" class="text-primary text-decoration-underline fst-normal fw-medium">Terms of Use</a> dari kami.</p>
                                                 </div>
 
                                                 <div id="password-contain" class="p-3 bg-light mb-2 rounded">
